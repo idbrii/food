@@ -36,7 +36,7 @@ Scratch is visual programming which is great for kids and people first getting i
 
 ## Textual Programming
 
-Khan Academy has a big interactive traditional programming syllabus and has an Hour of Code offering with lessons and challenges. The lessons try to explain how to think about writing your code instead of just copying the teacher. They're more advanced and use JavaScript which is a commonly used programming language that's closer to what I use at work: [Khan Academy's Hour of Code](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-tutorial/v/welcome-hour-of-code)
+Khan Academy has a big interactive traditional programming syllabus and has an Hour of Code offering with lessons and challenges. The lessons try to explain how to think about writing your code instead of just copying the teacher. They're more advanced and use JavaScript which is a commonly used programming language that's closer to what I use at work: [Khan Academy's Hour of Code](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-drawing-code/v/welcome-hour-of-code)
 
 Khan Academy also has a [parent's section](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-for-teachers/a/using-hour-of-code-with-your-child) to help you understand what it's all about.
 
