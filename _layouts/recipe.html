@@ -28,6 +28,18 @@ layout: default
   </div>
 
   <div>
+    <span class="terminator" style="display: flex; justify-content: center;">
+      <img src="{{ site.baseurl }}/images/recipe_end.png">
+    </span>
+  </div>
+
+{% if page.reference %}
+  <div class="entry">
+    <i>{{ page.reference | markdownify | strip }}</i>
+  </div>
+{% endif %}
+
+  <div>
     <p><span class="share-box">Share:</span>
       <a href="https://bsky.app/intent/compose?text={{ page.title | strip_html | cgi_escape }}%0A{{ page.url | absolute_url | cgi_escape}}" target="_blank">Bluesky</a>,
       <a href="https://mastodonshare.com/?text={{ page.title | strip_html | cgi_escape }}&url={{site.url}}{{site.baseurl}}{{page.url}}" target="_blank">Mastodon</a>
