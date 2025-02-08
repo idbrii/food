@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<article class="post detailed">
+  <h1>{{ page.title }}</h1>
+
+  <div>
+    <p class="author_title">{{site.author}}  ·  {{ page.date | date: "%B %e, %Y" }}</p>
+    {% if page.last_modified_at %}
+    <p class="author_title" datetime="{{ page.last_modified_at | date_to_xmlschema }}">(Updated: {{ page.last_modified_at | date: "%b %-d, %Y" }})</p>
+    {% endif %}
+    <div class="post-tags">
+      {% if post %}
+        {% assign categories = post.categories %}
+      {% else %}
+        {% assign categories = page.categories %}
+      {% endif %}
+      {% for category in categories %}
+        <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+    </div>
+  </div>
+    
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <div>
+    <p><span class="share-box">Share:</span>
+      <a href="https://bsky.app/intent/compose?text={{ page.title | strip_html | cgi_escape }}%0A{{ page.url | absolute_url | cgi_escape}}" target="_blank">Bluesky</a>,
+      <a href="https://mastodonshare.com/?text={{ page.title | strip_html | cgi_escape }}&url={{site.url}}{{site.baseurl}}{{page.url}}" target="_blank">Mastodon</a>
+    </p>
+  </div>
+
+  <!--<div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>-->
+
+  {% include disqus.html %}
+</article>
