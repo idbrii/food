@@ -13,6 +13,40 @@ I've never liked tomato soup. I think I've only had it from a can and never
 enjoyed the intense sour flavours. I didn't like tomatoes as a kid either, so
 maybe that's what initially turned me off.
 
+{% include photo.html src="tomato-soup-5-plated.jpg" width="50%" alt="The finished product." caption="The croutons add a nice crunch -- and even store-bought are great addition." %}
+
+However, home-made tomato soup has much less harsh tomato sourness and more
+enjoyable flavours. I think the cream also helps balance out the acidity.
+
+<!-- Can't figure out how to pack in multiple small images here. -->
+
+| ![Cooking the veggie base.]({{ site.baseurl }}/images/p/tomato-soup-1-veg.jpg){: width="200" hspace="20" } | ![All the ingredients except cream and cheese in the pot.]({{ site.baseurl }}/images/p/tomato-soup-2-all.jpg){: width="200" hspace="20" } |
+
+<!--
+    {% include photo.html src="tomato-soup-1-veg.jpg" width="50%" alt="Cooking the veggie base." caption="Cooking the veggie base." %}
+    {% include photo.html src="tomato-soup-2-all.jpg" width="50%" alt="All the ingredients except cream and cheese in the pot." caption="All the ingredients except cream and cheese in the pot." %}
+-->
+
+I like to include some fresh tomatoes, but they can throw off the acidity.
+Adjust the amount of cream and cheese you add to compensate. Or omit them
+completely and reduce the cream to ⅓ cup.
+
+
+I blend *most* of the soup, but not all to retain some texture. If you prefer a
+smooth experience, then blend it all!
+
+{% include photo.html src="tomato-soup-3-pour.jpg" width="50%" alt="Pouring the blended soup back in." caption="Pouring the blended soup back in." %}
+
+{% include photo.html src="tomato-soup-4-final.jpg" width="50%" alt="The final product in the pot." caption="Blending ⅔ of the soup leaves some tomato pieces that give more textural variety." %}
+
+<!-- Not sure how to style markdown tables to have no border. This removes all but the top. -->
+<style>
+table, td, th {
+    border: none!important;
+    border-top: none!important;
+}
+</style>
+
 # Soup
 
 Get the croutons in the oven after prepping other ingredients but before
@@ -40,14 +74,21 @@ Mix until completely incorporated.
 Add:
 
 * 825 mL (28 oz can) **crushed tomatoes**
-* 2.75 cup chicken **stock**
-* 0.33 cup **heavy cream**
+* 2 **sliced plum tomatoes** (optional)
+* 690 mL (2.75 cup) chicken **stock**
+* 125 mL (0.5 cup) **heavy cream**
 
 Stir well and bring to boil.
 
 Lower heat to simmer and cook for 20 minutes. This will help bring together the flavours.
 
-Turn off the heat and remove and discard the thyme stems. Add:
+Turn off the heat and remove and discard the thyme stems.
+
+If you want a smooth soup, allow to cool a bit and use an immersion blender or
+pour soup into a pitcher blender and pulverize it. I reserve some unblended
+soup to retain some texture.
+
+Add:
 
 * 280 g **cheese**
 
