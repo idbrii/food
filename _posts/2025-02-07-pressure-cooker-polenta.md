@@ -17,7 +17,7 @@ Works pretty well as a make-ahead project: Cook the mushrooms the day before,
 start the polenta on a timer in the morning, microwave the mushrooms when the
 polenta is ready, and serve it all together.
 
-![The finished product]({{ site.baseurl }}/images/p/pressure-cooker-polenta_dish.jpg){: width="600" }
+{% include photo.html src="pressure-cooker-polenta_dish.jpg" width="50%" alt="The finished product." caption="The finished product." %}
 
 
 # Mushrooms

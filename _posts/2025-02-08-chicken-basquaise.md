@@ -12,13 +12,13 @@ reference: "Recipe inspired by [Food IQ](https://www.harpercollins.com/products/
 I've never heard of this dish before reading about it in Food IQ, but it's
 perfect for cold days and you can add more chorizo if you want even more heat.
 
-![The finished product]({{ site.baseurl }}/images/p/chicken-basquaise-2-plated.jpg){: width="600" }
+{% include photo.html src="chicken-basquaise-2-plated.jpg" width="50%" alt="Tomato-Braised Chicken Basquaise." caption="The finished product." %}
 
 My family doesn't handle spice too well, this version is pretty mild. Make sure
 to slice the chorizo really thinly to allow the broth to take on more of its
 flavour and avoid tough pieces in the final stew.
 
-![Stew in the pot]({{ site.baseurl }}/images/p/chicken-basquaise-3-stew.jpg){: width="600" }
+{% include photo.html src="chicken-basquaise-1-stew.jpg" width="50%" alt="Stew cooking in the pot." caption="Nearly finished stew in the pot." %}
 
 [Search for more images](https://duckduckgo.com/?t=ffab&q=chicken+Basquaise&iax=images&ia=images).
 
