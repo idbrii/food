@@ -88,6 +88,23 @@ p {
   margin: 15px 0;
 }
 
+/* Only the colour works in figcaption styling. I don't understand. */
+figcaption {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.8em;   /* smaller but readable */
+  font-style: italic;
+  color: #888;
+  text-align: center; /* optional: nice for captions */
+  margin-top: 0.5em;  /* optional: adds spacing from image */
+}
+
+/* I have to use important even if I move this to the end of the css. Maybe there's something embedded somewhere? */
+figcaption {
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 0.8em !important;
+  font-style: italic !important;
+}
+
 table {
 	padding: 0;
 }
