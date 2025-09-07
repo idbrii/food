@@ -1,12 +1,14 @@
 {{=<% %>=}}
 <center>
 	<figure>
-		<img
-			loading="lazy"
-			src="{{ site.baseurl }}/images/p/{{include.src}}"
-			alt="{{include.alt}}" 
-			width="{{include.width}}" 
-			>
+		<a href="{{ site.baseurl }}/images/p/{{include.src}}">
+			<img
+				loading="lazy"
+				src="{{ site.baseurl }}/images/p/{{include.src}}"
+				alt="{{include.alt}}" 
+				width="{{include.width}}" 
+				>
+		</a>
 		<figcaption>{{include.caption}}</figcaption>
 	</figure>
 </center>
