@@ -18,14 +18,17 @@ maybe that's what initially turned me off.
 However, home-made tomato soup has much less harsh tomato sourness and more
 enjoyable flavours. I think the cream also helps balance out the acidity.
 
-<!-- Can't figure out how to pack in multiple small images here. -->
-
-| ![Cooking the veggie base.]({{ site.baseurl }}/images/p/tomato-soup-1-veg.jpg){: width="200" hspace="20" } | ![All the ingredients except cream and cheese in the pot.]({{ site.baseurl }}/images/p/tomato-soup-2-all.jpg){: width="200" hspace="20" } |
-
-<!--
-    {% include photo.html src="tomato-soup-1-veg.jpg" width="50%" alt="Cooking the veggie base." caption="Cooking the veggie base." %}
-    {% include photo.html src="tomato-soup-2-all.jpg" width="50%" alt="All the ingredients except cream and cheese in the pot." caption="All the ingredients except cream and cheese in the pot." %}
--->
+<!-- Can't figure out how to pack in multiple small images here in markdown (a table doesn't let me use photo.html) -->
+<table>
+    <tr>
+        <td>
+            {% include photo.html src="tomato-soup-1-veg.jpg" width="50%" alt="Cooking the veggie base." caption="Cooking the veggie base." %}
+        </td>
+        <td>
+            {% include photo.html src="tomato-soup-2-all.jpg" width="50%" alt="All the ingredients except cream and cheese in the pot." caption="All the ingredients except cream and cheese in the pot." %}
+        </td>
+    </tr>
+</table>
 
 I like to include some fresh tomatoes, but they can throw off the acidity.
 Adjust the amount of cream and cheese you add to compensate. Or omit them
@@ -39,7 +42,7 @@ smooth experience, then blend it all!
 
 {% include photo.html src="tomato-soup-4-final.jpg" width="50%" alt="The final product in the pot." caption="Blending ⅔ of the soup leaves some tomato pieces that give more textural variety." %}
 
-<!-- Not sure how to style markdown tables to have no border. This removes all but the top. -->
+<!-- Not sure how to style tables to have no border. This removes all but the top. -->
 <style>
 table, td, th {
     border: none!important;
